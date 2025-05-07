@@ -65,7 +65,7 @@ This is a re-do of the nft preview challenge using tailwind CSS. The original pr
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@beowulf1958](https://www.frontendmentor.io/profile/beowulf1958)
 
 
 ## Acknowledgments
