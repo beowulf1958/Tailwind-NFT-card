@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-myBlue-950 flex flex-col items-center justify-center min-h-screen">
+  <main class="flex flex-col items-center justify-center">
+    <div class="card bg-myBlue-900 text-white w-[90%] p-5 max-w-[390px] space-y-5 rounded-xl mb-4">
+    <!-- header -->
+      <div class="image relative rounded-xl overflow-hidden">
+        <img src="./images/image-equilibrium.jpg" alt="">
+        <div class="overlay absolute top-0 left-0 w-full h-full bg-myCyan-400 bg-[url(./images/icon-view.svg)] bg-no-repeat bg-center opacity-0 hover:opacity-50"></div>
+      </div>
+
+    <!-- main content -->
+     <h1 class="label hover:text-myCyan-400 text-2xl">Equilibrium #3429</h1>
+     <p class="paragraph text-lg text-myBlue-500">
+       Our Equilibrium collection promotes balance and calm.
+     </p>
+
+     <div class="deal flex justify-between">
+       <div class="eth flex items-center gap-2">
+        <img class="h-5" src="./images/icon-ethereum.svg" alt="">
+        <p>0.041 ETH</p>
+       </div>
+       <div class="days flex items-center gap-2">
+        <img class="h-5" src="./images/icon-clock.svg" alt="">
+        <p>3 days left</p>
+       </div>
+     </div>
+
+     <hr class="text-myBlue-800">
+
+      <!-- footer -->
+     <div class="creator flex items-center gap-3">
+      <img class="w-8 h-8 rounded-full border-white border-1" src="./images/image-avatar.png" alt="">
+      <p class="text-myBlue-500">
+        Creation of <span class="text-white hover:text-myCyan-400">Jules Wyvern</span>
+      </p>
+     </div>
+
+    </div>
+  </main>
+
+
+  <div class="attribution text-sm text-myBlue-500">
+    Challenge by <a class="text-blue-400 hover:text-rose-400" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="text-blue-400 hover:text-rose-400" href="#">Jordan Murrin</a>.
+  </div>
+</body>
+</html>
