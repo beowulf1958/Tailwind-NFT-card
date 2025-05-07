@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-preview-card-using-tailwind-css-P860cmTj6j)
 - Live Site URL: [Add live site URL here](https://tailwind-nft-preview-card.netlify.app/)
 
 ## My process
@@ -56,8 +56,6 @@ This is a re-do of the nft preview challenge using tailwind CSS. The original pr
 <div class="overlay absolute top-0 left-0 w-full h-full bg-myCyan-400 bg-[url(./images/icon-view.svg)] bg-no-repeat bg-center opacity-0 hover:opacity-50"></div>
 ```
 
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
 
 ### Useful resources
 
